@@ -45,7 +45,7 @@
 ### 4. 주석
 <!— content —>
 
-### 5. <p>content<p/> 
+### 5.```HTML <p>content<p/>```
 ### 6. <strong>content</strong> = 굵은글씨 
 <strong style="color:red;">content</strong>
 ### 7. <br>  , <br><br  />  = 줄띄어쓰기
