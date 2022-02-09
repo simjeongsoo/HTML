@@ -14,7 +14,7 @@
 서버 측에서 데이터를 처리한 결과를 클라이언트에게 보내준다(응답)  
 <br/>
 * Form 의 속성  
-action : 입력값을 전송할 서버의 url
+action : 입력값을 전송할 서버의 url  
 method : 클라이언트가 입력한 데이터를 어떤 식으로 전송할지( GET or POST )  
 `<form action=“example.php” method=“POST”></form>`  
 -> example.php 라는 서버 프로그램으로 입력값을 전송하여 요청할것  
