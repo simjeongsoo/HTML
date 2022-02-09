@@ -18,7 +18,7 @@ content : 메타데이터 내용
 - http-equiv  
 데이터를 주고받는데 필요한 정보 지정  
 `<!-— IE 브라우저의 최신 버전의 엔진을 사용하라는뜻 —->`  
-`<meta http-equiv=“x-ua-compatible” content=“IE=edge”>` 
+`<meta http-equiv=“x-ua-compatible” content=“IE=edge”>`  
 `<!—- 10초마다 페이지 새고로침하라는뜻 -—>`  
 `<meta http-equiv=“refresh” content=“10”>`  
 
