@@ -43,14 +43,15 @@
 * 태그명과 속성 정의는 공백(space)으로 구분하며, 큰따옴표 사용 
 
 ### 4. 주석
-<!— content —>
+<!- content ->
 
-### 5.```HTML <p>content<p/>```
-### 6. <strong>content</strong> = 굵은글씨 
-<strong style="color:red;">content</strong>
-### 7. <br>  , <br><br  />  = 줄띄어쓰기
+### 5.`<p>content<p/>`
+### 6. `<strong>content</strong>` = 굵은글씨 
+`<strong style="color:red;">content</strong>`
+### 7. `<br>  , <br><br  />`  = 줄띄어쓰기
 
 ### 8. HTML 문서 기본구조 
+```
 <!DOCTYPE html>
 <html> // html의 시작과 끝 
 <head>
@@ -61,23 +62,23 @@
 	실제 웹페이지에 표시할 내용
 </body>
 </html>
+```
 
-
-= <!DOCTYPE html> 
+= `<!DOCTYPE html>` 
 - 문서의 첫 부분에서 문서 유형을 지정하는 단일 태그, 웹 브라우저에게 메시지 전달
 - 현재 표준으로 사용되고 있는 HTML 버전을 사용하기 위해 적어주는 타입이 html
 
-= <html></html>
+= `<html></html>`
 - 문서 유형을 지정한 후 실제 문서가 시작되고 끝나는 것을 나타내는 태그 
 
-=<head></head>
+= `<head></head>`
 - 웹 브라우저 화면에는 보이지 않지만 웹 브라우저가 알아야 할 정보들은 모두 이 태그에 들어감
-- <meta charset=“utf-8”>
+- `<meta charset=“utf-8”>`
 	= 문자 인코딩 및 문서 키워드 등에 대한 요약정보 단일태그 
-- <title></title>
+- `<title></title>`
 	= 문서의 제목을 나타냄 , 콘텐츠는 브라우저 탭에 표시 
 
-=<body></body>
+= `<body></body>`
 - 실제 브라우저 화면에 표시될 내용을 입력하는 태그 
 - 텍스트를 표시하는 태그
 - 이미지를 표시하는 태그 
