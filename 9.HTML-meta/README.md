@@ -19,7 +19,6 @@ content : 메타데이터 내용
 데이터를 주고받는데 필요한 정보 지정  
 `<!-— IE 브라우저의 최신 버전의 엔진을 사용하라는뜻 —->`  
 `<meta http-equiv=“x-ua-compatible” content=“IE=edge”>` 
-<br/>
 `<!—- 10초마다 페이지 새고로침하라는뜻 -—>`  
 `<meta http-equiv=“refresh” content=“10”>`  
 
@@ -27,9 +26,7 @@ content : 메타데이터 내용
 Name 속성을 이름으로, content 속성을 값으로 하여 문서 정보를 이름 + 값 쌍의 형태로 제공할 때 사용할 수 있음  
 `<!-—문서 제작자—->`  
 `<meta name=“author” content=“제작자”>`  
-<br/>
 `<!-—페이지에 대한 요약, 브라우저 즐겨찾기 페이지의 기본 설명 값—->`  
 `<meta name=“description” content=“페이지에 대한 짧고 명확한 요악”>`  
-<br/>
 `<!-—페이지의 콘텐츠와 관련된, 쉼표로 구분한 키워드 목록 —->`  
 `<meta name=“keywords” content=“1,2,3,4,5,등등”>`  
